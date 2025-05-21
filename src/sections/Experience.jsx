@@ -1,6 +1,6 @@
-import { Suspense, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import { Suspense, useState } from 'react';
 
 import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
@@ -50,7 +50,15 @@ const WorkExperience = () => {
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>
                     </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    {Array.isArray(item.title) ? (
+                      item.title.map((line, index) => (
+                        <p className="group-hover:text-white transition-all ease-in-out duration-500" key={index}>
+                          {line}
+                        </p>
+                      ))
+                    ) : (
+                      <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    )}
                   </div>
                 </div>
               ))}

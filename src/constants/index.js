@@ -62,7 +62,7 @@ export const myProjects = [
     desc: 'CrisisCompass is a comprehensive crisis management platform that helps organizations and volunteers prepare for, respond to, and recover from emergencies. It provides real-time alerts, communication tools, and incident reporting features to ensure a swift and coordinated response to any crisis.',
     subdesc:
       'Built with Next.js, Convex, and Stream, CrisisCompass is a powerful tool that can save lives and protect communities during times of crisis.',
-    href: 'crisiscompass.vercel.app',
+    href: 'https://crisiscompass.vercel.app',
     texture: '/textures/project/crisis.mp4',
     logo: '/assets/crisiscompass.svg',
     logoStyle: {
@@ -80,12 +80,12 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: 'assets/tail.svg',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: '/assets/ts.svg',
       },
       {
         id: 4,
@@ -109,9 +109,9 @@ export const myProjects = [
     desc: 'Astro Club is a social networking platform designed for astronomy enthusiasts. It allows users to connect with like-minded individuals, share their passion for the cosmos, and participate in stargazing events. The platform features a user-friendly interface, event scheduling capabilities, and a 3D model of the solar system for educational purposes.',
     subdesc:
       'Built with React.js, TailwindCSS, NestJS, and Three.js, Astro Club is a fun and interactive way for astronomy lovers to connect and learn more about the universe.',
-    href: '',
-    // texture: '/textures/project/project2.mp4',
-    logo: '/assets/site-logo.svg',
+    href: 'https://astroclub.vercel.app/home',
+    texture: '/textures/project/astroclub.mp4',
+    logo: '/assets/astroclub.svg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -127,12 +127,12 @@ export const myProjects = [
       {
         id: 2,
         name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        path: 'assets/tail.svg',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: '/assets/ts.svg',
       },
       {
         id: 4,
@@ -153,6 +153,130 @@ export const myProjects = [
         id: 7,
         name: 'NestJS',
         path: '/assets/nest.svg',
+      },
+    ],
+  },
+  {
+    title: 'Live Docs',
+    desc: 'Live Docs is a collaborative document editing platform that allows users to create, edit, and share documents in real-time. It features a user-friendly interface, live cursors, and a comment system for seamless communication. The platform is designed to streamline the document editing process and enhance productivity for teams of all sizes.',
+    subdesc:
+      'Built with NextJS, TailwindCSS, Clerk, and LiveBlocks. Live Docs is a powerful tool that can transform the way teams collaborate on documents.',
+    href: 'https://live-docs-raphael-semaans-projects.vercel.app/sign-in',
+    texture: '/textures/project/livedocs.mp4',
+    logo: '/assets/livedocs.svg',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'NextJS',
+        path: '/assets/next.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tail.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/ts.svg',
+      },
+      {
+        id: 5,
+        name: 'Clerk',
+        path: '/assets/c.svg',
+      },
+      {
+        id: 6,
+        name: 'LiveBlocks',
+        path: '/assets/lb.svg',
+      },
+      {
+        id: 7,
+        name: 'Sentry',
+        path: '/assets/sentry.svg',
+      },
+    ],
+  },
+  {
+    title: 'XORA',
+    desc: 'XORA is a landing page for a fake AI startup/company. It features a modern design, smooth animations, and a responsive layout.',
+    subdesc: 'Built with ReactJS and TailwindCSS. XORA is a showcase of my frontend development skills and creativity.',
+    href: 'https://saas-landing-page.raphaelsemaan.com',
+    texture: '/textures/project/xora.mp4',
+    logo: '/assets/xora.svg',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'ReactJS',
+        path: '/assets/re.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tail.svg',
+      },
+      {
+        id: 3,
+        name: 'Vite',
+        path: '/assets/vite.svg',
+      },
+    ],
+  },
+  {
+    title: 'Threads Clone',
+    desc: 'Threads Clone is a social media platform inspired by the popular app Threads by Instagram. It allows users to share messages with close friends. The platform features a user-friendly interface and real-time updates',
+    subdesc: 'Built with NextJS and TailwindCSS. Threads Clone is a showcase of my fullstack development skills.',
+    href: 'https://threads-clone-raphael-semaans-projects.vercel.app',
+    texture: '/textures/project/threads-clone.mp4',
+    logo: '/assets/threads-clone.svg',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'NextJS',
+        path: 'assets/next.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tail.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: 'assets/ts.svg',
+      },
+      {
+        id: 4,
+        name: 'MongoDB',
+        path: 'assets/mongo.svg',
+      },
+      {
+        id: 5,
+        name: 'Clerk',
+        path: 'assets/c.svg',
+      },
+      {
+        id: 6,
+        name: 'UploadThing',
+        path: 'assets/uploadthing.svg',
       },
     ],
   },
@@ -181,12 +305,12 @@ export const myProjects = [
   //     {
   //       id: 2,
   //       name: 'TailwindCSS',
-  //       path: 'assets/tailwindcss.png',
+  //       path: 'assets/tail.svg',
   //     },
   //     {
   //       id: 3,
   //       name: 'TypeScript',
-  //       path: '/assets/typescript.png',
+  //       path: '/assets/ts.svg',
   //     },
   //     {
   //       id: 4,
@@ -218,12 +342,12 @@ export const myProjects = [
   //     {
   //       id: 2,
   //       name: 'TailwindCSS',
-  //       path: 'assets/tailwindcss.png',
+  //       path: 'assets/tail.svg',
   //     },
   //     {
   //       id: 3,
   //       name: 'TypeScript',
-  //       path: '/assets/typescript.png',
+  //       path: '/assets/ts.svg',
   //     },
   //     {
   //       id: 4,
@@ -255,12 +379,12 @@ export const myProjects = [
   //     {
   //       id: 2,
   //       name: 'TailwindCSS',
-  //       path: 'assets/tailwindcss.png',
+  //       path: 'assets/tail.svg',
   //     },
   //     {
   //       id: 3,
   //       name: 'TypeScript',
-  //       path: '/assets/typescript.png',
+  //       path: '/assets/ts.svg',
   //     },
   //     {
   //       id: 4,
@@ -291,16 +415,29 @@ export const workExperiences = [
     title:
       'I am a fresh graduate from the University of Balamand. I have a Bachelor’s degree in Computer Science. I have a strong foundation in software development, data structures, algorithms, and computer systems. I have built several projects during my time at university which are showcased above.',
     icon: '/assets/exp1.svg',
-    animation: 'victory',
+    animation: 'clapping',
   },
   {
     id: 2,
+    name: 'Internship at Exquitech Group',
+    pos: 'Software Developer Intern',
+    duration: 'Nov - Dec 2024',
+    title: [
+      '- Developed a fully functional book repository web application using Next.js, showcasing advanced front-end development skills.',
+      '- Designed and implemented secure web APIs in C# to support user authentication, data management, and administrative functionalities.',
+      '- Gained hands-on experience in full-stack web development, bridging front-end and back-end technologies.',
+    ],
+    icon: '/assets/exp2.svg',
+    animation: 'victory',
+  },
+  {
+    id: 3,
     name: 'Searching for a Job',
     pos: '',
-    duration: '2024 - Present',
+    duration: 'Present',
     title:
       'I am currently looking for a job as a software developer. I am passionate about technology and enjoy building things that live on the internet. I am open to learning new technologies and developing new types of applications.',
-    icon: '/assets/exp2.svg',
+    icon: '/assets/exp4.svg',
     animation: 'salute',
   },
 ];
